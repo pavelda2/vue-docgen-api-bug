@@ -3,7 +3,7 @@
         <label>
             <input type="checkbox"/>
             <!-- @slot Label of checkbox -->
-            <slot #label/>
+            <slot name="label"/>
         </label>
     </div>
 </template>

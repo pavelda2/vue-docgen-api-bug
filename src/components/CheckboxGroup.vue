@@ -2,8 +2,8 @@
     <div>
         <app-checkbox v-for="option in options" :key="option">
             <template #label>
-                <!-- @slot Content of checkbox label delegated to the AppCheckbox component -->
-                <slot #label>{{option}}</slot>
+                <!-- @slot Slot documentation not parsed -->
+                <slot name="label">{{option}}</slot>
             </template>
         </app-checkbox>
     </div>
